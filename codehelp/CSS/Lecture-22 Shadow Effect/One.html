@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-color:brown;
+            --custom-width:330px;
+        }
+        .container{
+            background-color: beige;
+            height:650px;
+            border:2px solid black;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .box{
+            /* --primary-color:brown;
+            --custom-width:330px; */
+            background-color:aquamarine ;
+            width:330px;
+            height:330px;
+            width:var(--custom-width);
+            border:1px solid var(--primary-color);
+            margin:5px;
+            padding:5px;
+            /* box-shadow:20px 15px brown; */
+            /* box-shadow:10px 15px 50px brown; */
+            /* box-shadow:10px 15px 20px 20px rgba(78, 158, 211, 0.7); */
+            /* box-shadow:inset 10px 15px brown; */
+            /* Multi shadow */
+            /* box-shadow:10px 15px red, 10px 20px green; */
+            box-shadow:-10px -30px var(--primary-color);
+        }
+        #head1{
+            /* text-shadow:2px 3px 1px white; */
+            color:brown;
+            text-shadow:yellow 6px 3px 2px,blue 10px 6px 4px;
+            text-transform:bold;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <!-- <img src="./eng1.jpg" alt=""> -->
+            <h2 id="head1">Engagement Eve</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum iste explicabo aut exercitationem eius quasi mollitia laborum ducimus, minus quisquam laudantium consequatur ut natus vero inventore ex quaerat deleniti itaque quas ea quam ipsum excepturi obcaecati? Illum mollitia omnis velit laboriosam ea quidem eligendi facilis, minus, maxime, cupiditate quae quam!</p>
+        </div>
+    </div>
+</body>
+</html>

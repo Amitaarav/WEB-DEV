@@ -1,0 +1,23 @@
+:root{
+    font-size: 30px;
+}
+*{
+    background-color: cornflowerblue;
+    color:white;
+    font-size: 18px;
+}
+#color{
+    color:coral;
+}
+#size{
+    font-size: 2rem;
+}
+#weight{
+    font-weight:900;
+}
+#family{
+    font-family: 'Caveat', cursive;
+}
+#align{
+    text-align: right;
+}

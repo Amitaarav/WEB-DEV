@@ -1,0 +1,27 @@
+*{
+    background-color: darkolivegreen;
+    text-align-last: center;
+}
+.color-title {
+    font-weight:normal;
+}
+#red {
+    color:red;
+}
+img
+{
+    height: 200px;
+    width: 200px;
+}
+#blue {
+    color:blue;
+}
+#orange {
+    color:orange;
+}
+#green {
+    color:green;
+}
+#yellow {
+    color:yellow;
+}

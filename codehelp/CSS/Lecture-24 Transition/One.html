@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .box{
+            width:400px;
+            height:400px;
+            background-color: magenta;
+
+            border:2px solid black;
+            transition-property:all;
+            transition-duration:4s;
+            /* transition-delay:1s; */
+            transition-timing-function:ease-in;
+
+            /* short hand notation */
+            transition:all 2s ease-out 5s;
+
+        }
+        .box:hover{
+            width:1500px;
+            height:900px;
+            background-color: blue;
+        }
+        /* Pseudo class-style an element when a user mouses over it */
+        .box2{
+            height:40px;
+            width:100px;
+            margin:10px;
+            padding:0px;
+            background-color: rgb(155, 155, 46);
+            transition:all 0.5s linear 2s;
+            display:flex;
+            justify-content:center;
+            align-items: center;
+        }
+        .box2:hover{
+            background-color:white;
+        }
+        a:hover{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+        <div class="box2">
+            <button>
+                <a href="https://leetcode.com/amit_gupta_512/">Leetcode</a>
+            </button>
+        </div>
+    </div>
+    
+</body>
+</html>
